@@ -29,68 +29,68 @@ numeric code for the activity.name attribute. Here is the mapping
 Below are all the average values for the mean and standard deviation features mentioned above. The unit of measure for these new variables is same as the original feature based on which these are calculated
 
 grpavg.tbodyacc.mean.x
-,  grpavg.tbodyacc.mean.y
-,  grpavg.tbodyacc.mean.z
-,  grpavg.tbodyacc.std.x
-,  grpavg.tbodyacc.std.y
-,  grpavg.tbodyacc.std.z
-,  grpavg.tgravityacc.mean.x
-,  grpavg.tgravityacc.mean.y
-,  grpavg.tgravityacc.mean.z
-,  grpavg.tgravityacc.std.x
-,  grpavg.tgravityacc.std.y
-,  grpavg.tgravityacc.std.z
-,  grpavg.tbodyaccjerk.mean.x
-,  grpavg.tbodyaccjerk.mean.y
-,  grpavg.tbodyaccjerk.mean.z
-,  grpavg.tbodyaccjerk.std.x
-,  grpavg.tbodyaccjerk.std.y
-,  grpavg.tbodyaccjerk.std.z
-,  grpavg.tbodygyro.mean.x
-,  grpavg.tbodygyro.mean.y
-,  grpavg.tbodygyro.mean.z
-,  grpavg.tbodygyro.std.x
-,  grpavg.tbodygyro.std.y
-,  grpavg.tbodygyro.std.z
-,  grpavg.tbodygyrojerk.mean.x
-,  grpavg.tbodygyrojerk.mean.y
-,  grpavg.tbodygyrojerk.mean.z
-,  grpavg.tbodygyrojerk.std.x
-,  grpavg.tbodygyrojerk.std.y
-,  grpavg.tbodygyrojerk.std.z
-,  grpavg.tbodyaccmag.mean
-,  grpavg.tbodyaccmag.std
-,  grpavg.tgravityaccmag.mean
-,  grpavg.tgravityaccmag.std
-,  grpavg.tbodyaccjerkmag.mean
-,  grpavg.tbodyaccjerkmag.std
-,  grpavg.tbodygyromag.mean
-,  grpavg.tbodygyromag.std
-,  grpavg.tbodygyrojerkmag.mean
-,  grpavg.tbodygyrojerkmag.std
-,  grpavg.fbodyacc.mean.x
-,  grpavg.fbodyacc.mean.y
-,  grpavg.fbodyacc.mean.z
-,  grpavg.fbodyacc.std.x
-,  grpavg.fbodyacc.std.y
-,  grpavg.fbodyacc.std.z
-,  grpavg.fbodyaccjerk.mean.x
-,  grpavg.fbodyaccjerk.mean.y
-,  grpavg.fbodyaccjerk.mean.z
-,  grpavg.fbodyaccjerk.std.x
-,  grpavg.fbodyaccjerk.std.y
-,  grpavg.fbodyaccjerk.std.z
-,  grpavg.fbodygyro.mean.x
-,  grpavg.fbodygyro.mean.y
-,  grpavg.fbodygyro.mean.z
-,  grpavg.fbodygyro.std.x
-,  grpavg.fbodygyro.std.y
-,  grpavg.fbodygyro.std.z
-,  grpavg.fbodyaccmag.mean
-,  grpavg.fbodyaccmag.std
-,  grpavg.fbodybodyaccjerkmag.mean
-,  grpavg.fbodybodyaccjerkmag.std
-,  grpavg.fbodybodygyromag.mean
-,  grpavg.fbodybodygyromag.std
-,  grpavg.fbodybodygyrojerkmag.mean
-,  grpavg.fbodybodygyrojerkmag.std
+grpavg.tbodyacc.mean.y
+grpavg.tbodyacc.mean.z
+grpavg.tbodyacc.std.x
+grpavg.tbodyacc.std.y
+grpavg.tbodyacc.std.z
+grpavg.tgravityacc.mean.x
+grpavg.tgravityacc.mean.y
+grpavg.tgravityacc.mean.z
+grpavg.tgravityacc.std.x
+grpavg.tgravityacc.std.y
+grpavg.tgravityacc.std.z
+grpavg.tbodyaccjerk.mean.x
+grpavg.tbodyaccjerk.mean.y
+grpavg.tbodyaccjerk.mean.z
+grpavg.tbodyaccjerk.std.x
+grpavg.tbodyaccjerk.std.y
+grpavg.tbodyaccjerk.std.z
+grpavg.tbodygyro.mean.x
+grpavg.tbodygyro.mean.y
+grpavg.tbodygyro.mean.z
+grpavg.tbodygyro.std.x
+grpavg.tbodygyro.std.y
+grpavg.tbodygyro.std.z
+grpavg.tbodygyrojerk.mean.x
+grpavg.tbodygyrojerk.mean.y
+grpavg.tbodygyrojerk.mean.z
+grpavg.tbodygyrojerk.std.x
+grpavg.tbodygyrojerk.std.y
+grpavg.tbodygyrojerk.std.z
+grpavg.tbodyaccmag.mean
+grpavg.tbodyaccmag.std
+grpavg.tgravityaccmag.mean
+grpavg.tgravityaccmag.std
+grpavg.tbodyaccjerkmag.mean
+grpavg.tbodyaccjerkmag.std
+grpavg.tbodygyromag.mean
+grpavg.tbodygyromag.std
+grpavg.tbodygyrojerkmag.mean
+grpavg.tbodygyrojerkmag.std
+grpavg.fbodyacc.mean.x
+grpavg.fbodyacc.mean.y
+grpavg.fbodyacc.mean.z
+grpavg.fbodyacc.std.x
+grpavg.fbodyacc.std.y
+grpavg.fbodyacc.std.z
+grpavg.fbodyaccjerk.mean.x
+grpavg.fbodyaccjerk.mean.y
+grpavg.fbodyaccjerk.mean.z
+grpavg.fbodyaccjerk.std.x
+grpavg.fbodyaccjerk.std.y
+grpavg.fbodyaccjerk.std.z
+grpavg.fbodygyro.mean.x
+grpavg.fbodygyro.mean.y
+grpavg.fbodygyro.mean.z
+grpavg.fbodygyro.std.x
+grpavg.fbodygyro.std.y
+grpavg.fbodygyro.std.z
+grpavg.fbodyaccmag.mean
+grpavg.fbodyaccmag.std
+grpavg.fbodybodyaccjerkmag.mean
+grpavg.fbodybodyaccjerkmag.std
+grpavg.fbodybodygyromag.mean
+grpavg.fbodybodygyromag.std
+grpavg.fbodybodygyrojerkmag.mean
+grpavg.fbodybodygyrojerkmag.std
