@@ -18,6 +18,6 @@ The R script called run_analysis.R does the following.
 4) Appropriately labels the data set with descriptive variable names.
 5) From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-The code assumes that the data folder mentioned above data link has been unzipped and is available in the working directory of R
+Copy the R file into the R working directory. Download the data zip file and unzip the data file into the R working directory. 
 
-The code book for the tidy data set is CodeBook.md
+When the R code is executed a file named "tidy_data_avg_for_activity_subject_grouping.txt" is created in the Samsung data folder that is under the R working directory. The code book for this tidy data set is CodeBook.md
