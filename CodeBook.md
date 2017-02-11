@@ -1,0 +1,98 @@
+Experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. 
+
+Refer to the below files for the details of the attributes collected and calculated during the experiment. These files are under the unzipped data folder
+
+1) README.txt - gives context about the experiment and the data collected
+2) features_info.txt and features.txt - descriptions for the features captured and the full list of feature names
+
+The test and train data sets have been consolidated and reference fields for the subject, activity code and activity name have been added.
+
+The features which represent the mean and standard deviation values in the master features list (that's under features.txt) have been extracted and an average of these features has been calculated for each activity and subject
+
+The new feature names have been prefixed with "grpavg." to denote that these are the subject/activity group averages. The feature names have been changed to lower case and special characters have been cleaned up ["()" has been removed and "-" has been replaced with "."]. 
+
+Here is the list of the columns in the tidy data set
+
+activity.name
+Name of the activity performed by the subject. 
+Possible values are  - WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
+
+subject
+numeric value indicating the id of the subject who has performed the activity
+
+activity.code
+numeric code for the activity.name attribute. Here is the mapping
+1 WALKING
+2 WALKING_UPSTAIRS
+3 WALKING_DOWNSTAIRS
+4 SITTING
+5 STANDING
+6 LAYING
+
+Below are all the average values for the mean and standard deviation features mentioned above. The unit of measure for these new variables is same as the original feature based on which these are calculated
+grpavg.tbodyacc.mean.x
+grpavg.tbodyacc.mean.y
+grpavg.tbodyacc.mean.z
+grpavg.tbodyacc.std.x
+grpavg.tbodyacc.std.y
+grpavg.tbodyacc.std.z
+grpavg.tgravityacc.mean.x
+grpavg.tgravityacc.mean.y
+grpavg.tgravityacc.mean.z
+grpavg.tgravityacc.std.x
+grpavg.tgravityacc.std.y
+grpavg.tgravityacc.std.z
+grpavg.tbodyaccjerk.mean.x
+grpavg.tbodyaccjerk.mean.y
+grpavg.tbodyaccjerk.mean.z
+grpavg.tbodyaccjerk.std.x
+grpavg.tbodyaccjerk.std.y
+grpavg.tbodyaccjerk.std.z
+grpavg.tbodygyro.mean.x
+grpavg.tbodygyro.mean.y
+grpavg.tbodygyro.mean.z
+grpavg.tbodygyro.std.x
+grpavg.tbodygyro.std.y
+grpavg.tbodygyro.std.z
+grpavg.tbodygyrojerk.mean.x
+grpavg.tbodygyrojerk.mean.y
+grpavg.tbodygyrojerk.mean.z
+grpavg.tbodygyrojerk.std.x
+grpavg.tbodygyrojerk.std.y
+grpavg.tbodygyrojerk.std.z
+grpavg.tbodyaccmag.mean
+grpavg.tbodyaccmag.std
+grpavg.tgravityaccmag.mean
+grpavg.tgravityaccmag.std
+grpavg.tbodyaccjerkmag.mean
+grpavg.tbodyaccjerkmag.std
+grpavg.tbodygyromag.mean
+grpavg.tbodygyromag.std
+grpavg.tbodygyrojerkmag.mean
+grpavg.tbodygyrojerkmag.std
+grpavg.fbodyacc.mean.x
+grpavg.fbodyacc.mean.y
+grpavg.fbodyacc.mean.z
+grpavg.fbodyacc.std.x
+grpavg.fbodyacc.std.y
+grpavg.fbodyacc.std.z
+grpavg.fbodyaccjerk.mean.x
+grpavg.fbodyaccjerk.mean.y
+grpavg.fbodyaccjerk.mean.z
+grpavg.fbodyaccjerk.std.x
+grpavg.fbodyaccjerk.std.y
+grpavg.fbodyaccjerk.std.z
+grpavg.fbodygyro.mean.x
+grpavg.fbodygyro.mean.y
+grpavg.fbodygyro.mean.z
+grpavg.fbodygyro.std.x
+grpavg.fbodygyro.std.y
+grpavg.fbodygyro.std.z
+grpavg.fbodyaccmag.mean
+grpavg.fbodyaccmag.std
+grpavg.fbodybodyaccjerkmag.mean
+grpavg.fbodybodyaccjerkmag.std
+grpavg.fbodybodygyromag.mean
+grpavg.fbodybodygyromag.std
+grpavg.fbodybodygyrojerkmag.mean
+grpavg.fbodybodygyrojerkmag.std
