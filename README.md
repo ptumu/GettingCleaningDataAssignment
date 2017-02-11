@@ -20,4 +20,4 @@ The R script called run_analysis.R does the following.
 
 Copy the R file into the R working directory. Download the data zip file and unzip the data file into the R working directory. 
 
-When the R code is executed a file named "tidy_data_avg_for_activity_subject_grouping.txt" is created in the Samsung data folder that is under the R working directory. The code book for this tidy data set is CodeBook.md
+When the R code is executed a file named "tidy_data_avg_for_activity_subject_grouping.txt" is created under the data folder (unzipped in above step). The code book for this tidy data set is CodeBook.md
